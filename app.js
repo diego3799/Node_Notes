@@ -18,7 +18,7 @@ switch (comando) {
         break;
     case 'actualizar':
         let act = porHacer.actualizar(argv.descripcion, argv.completado)
-        console.log(act);
+        console.log(act)
         break;
     case 'borrar':
         let borrar = porHacer.borrar(argv.descripcion)
